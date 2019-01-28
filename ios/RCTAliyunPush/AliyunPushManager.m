@@ -576,7 +576,7 @@ RCT_EXPORT_METHOD(getAuthorizationStatus:(RCTResponseSenderBlock)callback)
     NSMutableDictionary *notificationDict = [NSMutableDictionary dictionary];
     
     // 通知时间
-    notificationDict[@"date"] = [NSDate init];
+    notificationDict[@"date"] = [NSDate date];
     
     // 标题
     notificationDict[@"title"] = @"";
